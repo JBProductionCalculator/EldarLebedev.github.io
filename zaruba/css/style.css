@@ -1,0 +1,1284 @@
+
+/*изменение классов bootstrap*/
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.h-65{
+	height: 65%;
+}
+
+.h-35{
+	height: 35%;
+}
+
+
+h2{
+	font-weight: 900;
+}
+
+h4{
+	font-weight: 600;
+}
+
+
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+	height: 100vh;
+	background-image: url(../image/slider/slide4.jpg);
+	background-position: 50% 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.headerContent{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: 20;
+	background: rgba(0,0,0,0.4);
+}
+
+#sliderBigImages img ,.carousel-item{
+	height: 110vh;
+}
+
+
+
+header h1 {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 6.5vmin;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.titleSite {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+.titleSite p {
+    color: #fff;
+    width: 55%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.1vmin;
+}
+
+.titleSite button{
+	width: 20%;
+    height: 7vh;
+    margin-top: 0.5vw;
+ 	font-size: 2.5vmin;
+    border: 2px solid #ffd33d;
+    color: black;
+    background-color: #ffd33d;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: none;
+    transition: all .6s;
+}
+
+.titleSite button:hover{
+    background: rgba(255,255,255,0);
+}
+
+
+/*ЯКОРЬ ВНИЗ */
+.anchorDownBlock {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 4vh;
+/*    height: 20%;*/
+}
+
+.anchorDown {
+    width: 3vw;
+    height: 3vw;
+	border: 3px solid rgba(255, 255, 255, .7);
+	border-radius: 50%;		
+}
+.anchorDown:hover{
+	cursor: pointer;
+}
+
+.anchorDown a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	 display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.arrow{
+	width: 40%;
+	height: 40%;
+	border-right: 3px solid rgba(255, 255, 255, .7);
+	border-bottom: 3px solid rgba(255, 255, 255, .7);	
+	transform: rotate(45deg);
+}
+.arrow1{
+	margin-top: 1px;
+}
+
+/*ЯКОРЬ ВНИЗ.КОНЕЦ */
+#slider.desctop{
+	display: block;
+}
+#slider.mobile{
+	display: none;
+}
+#slider{
+	width: 100%;
+	height: 100%;
+}
+.sliderItem{
+	min-height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover; background-position: 100% 100%;
+}
+
+
+
+
+section#menu {
+    width: 100%;
+/*    height: 10vh;*/
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(3, 3, 3, .1);
+    position: absolute;
+    z-index: 100;
+    /*background: rgb(250,252,252,0.4);*/
+     background: rgba(2,2,2,0.4);
+    top: 0;
+    overflow: hidden;
+}
+.siteMenu{
+
+}
+
+.siteMenu ul{
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.siteMenu li{
+	width: 33%;
+	padding: 20px 0;
+	list-style-type: none;
+    border-right: 1px solid rgba(3, 3, 3, .1);
+}
+
+.siteMenu a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.socialIcons ul{
+	margin: 18px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.socialIcons li{
+/*	height: 10vh;*/
+	list-style-type: none;
+}
+
+.socialIcons li:nth-child(2){
+ margin-left: -3.5vw;
+}
+
+.socialIcons a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.socialIcons img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.phoneNumbers{
+
+}
+.phoneNumbers ul{
+	margin: 15px 0;;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+	position: relative;
+}
+
+/*.menuEmail{
+	position: absolute;
+}
+*/
+.phoneNumbers li{
+	width: 50%;
+	list-style-type: none;
+}
+
+.phoneNumbers a {
+	color: #fff;
+}
+
+.phoneNumbers a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+section#main{
+	background-color: #fff;
+}
+
+.mainContent{
+	min-height: 65vh;
+	box-sizing: border-box;
+	padding: 4vw;
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
+	background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainContent p{
+	font-style: oblique;
+	font-size:1.8vmin;
+	font-weight: 600;
+}
+
+
+.mainContent li{
+	margin-top: 10px;
+	font-size:1.7vmin;
+}
+
+.mainImage1{
+	min-height: 65vh;
+ 	background-image: url(../image/main1.jpg);
+ 	background-repeat: no-repeat;	
+ 	background-size: 100% 100%;
+ 	background-position: center center ;
+
+}
+
+
+.mainImage2{
+	height: 35vh;
+	min-height: 35vh;
+ 	background-image: url(../image/main2.jpg);
+ 	background-repeat: no-repeat;	
+ 	background-size: 100% auto;
+ 	background-position: 0% 55% ;
+}
+
+.mainImage3{
+	height: 35vh;
+	min-height: 35vh;
+ 	background-image: url(../image/new5.jpg);
+ 	background-repeat: no-repeat;	
+ 	background-size: 100% 120%;
+ 	background-position: 0 30%;
+}
+
+
+
+
+
+
+
+section#priceList{
+	height: auto;
+	background-color: #fff;
+
+}
+
+.priceListContent{
+	padding: 7vw;
+	padding-bottom: 0;			
+	box-sizing: border-box;
+}
+
+.priceListContent p{
+	font-style: oblique;
+	font-size:1.8vmin;
+	font-weight: 600;
+	margin-bottom: 3vw;
+}
+
+.priceListContent ul{
+	font-size:1.7vmin;
+	margin-bottom: 3vw;
+	margin-left: -1vw
+}
+.priceListContent li{
+  	list-style-position: outside;
+}
+
+.priceListImage{
+	background-image: url(../image/new3.jpg);
+	background-size: auto 100%;
+	background-position: 25% 0%;
+}
+
+.headlines{
+	margin-bottom: 1vw;
+}
+
+.additionalInformation{
+	padding: 7vw;
+	padding-top: 1vw;			
+	box-sizing: border-box;
+}
+
+.additionalInformation p{
+	font-size:1.8vmin;
+	font-weight: 500;
+	margin-bottom: .5vw;
+}
+
+.additionalInformation p:nth-child(3){
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+	text-decoration: underline;
+}
+
+.additionalInformation span{
+	font-weight: 900;
+}
+
+table {
+  border-collapse: collapse;
+  color: #63a291;
+  width: 40vw;
+  margin-bottom: 5vh;
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #63a291;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  caption-side: top;
+}
+th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
+
+
+
+section#historyPhoto{
+	width: 100%;
+	height: 40vh;
+	background-image: url(../image/new4.jpg);
+	background-size: 100% 450%;
+	background-position: 0% 7%; 
+}
+
+
+
+section#history{
+	background-color: black;
+}
+
+.historyContent{
+ 	box-sizing: border-box;
+ 	height: 100%;
+	padding: 5vw;
+	background-color: #fff;
+}
+
+.historText p{
+	margin-bottom: 1vw;
+	/*text-indent: 4px;*/
+	box-sizing: border-box;
+	padding-left: 1vw ; 
+}
+
+
+.historyImage2{
+ 	background-image: url(../image/history2.jpg);
+ 	background-repeat: no-repeat;	
+	 background-size: auto 100%;
+	 background-position: 80% center;
+}
+
+
+
+
+section#contactForm{
+	background: #F2F2F2;
+	overflow: hidden;
+}
+
+.contactInfo{
+	padding: 4vw;
+	padding-left: 7vw;
+	padding-right: 0;
+}
+
+.contactInfo h4{
+	font-size: 2vmin;
+	font-weight: 500;
+	margin-bottom: 4vw;
+}
+
+.contactInfo ul{
+	padding-left: 0;
+	margin-bottom: 2vw;
+}
+
+
+.contactInfo li{
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.contactInfo a{
+	color: black;
+}
+
+.contactInfo a:hover{
+	text-decoration: none;
+}
+
+.contactInfo li:nth-child(1){
+	font-weight: 900;
+	font-size: 2vmin;
+}
+
+.contactEmail{
+	color: #6C8CD5;
+}
+
+
+
+.contactUs{
+	padding: 4vw;
+	/*padding-left: 7vw;*/
+	padding-right: 0;
+}
+
+ .contactUs h3{
+	font-size: 3vmin;
+	font-weight: 500;
+	margin-bottom: 2.2vw;
+}
+
+
+.contactUs p{
+ margin-bottom: 0;
+ font-size: 2vmin;
+ font-weight: 900;
+}
+
+input{
+	width: 90%;
+	height: 4vh;
+	margin-bottom: 2vh;
+	outline: none;
+}
+
+
+input#subject{
+	width: 97%;
+
+}
+
+textarea{
+	width: 97%;
+	height: 20vh;
+	margin-bottom: 2vh;
+	outline: none;
+}
+
+
+button{
+	width: 15%;
+    height: 5vh;
+ 	font-size: 2vmin;
+    border: 2px solid #ffd33d;
+    color: #000;
+    background-color: #ffd33d;
+    cursor: pointer;
+    outline: none;
+    transition: all .6s;
+}
+
+button:hover{
+    background: #fff;
+   	outline: none;
+}
+
+
+/*===================  POPUP =======================*/
+.modalWindow{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 222;
+}
+.modalWindow .modalWrap{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 22;
+	background: #F2F2F2;
+	padding: 20px;	
+}
+
+.modalTitle{
+	font-size: 3vmin;
+	text-align: center;
+	margin-bottom: 2vh;
+}
+
+.modalWrap input{
+	/*margin-top: 1px;*/
+}
+
+.modalWrap textarea{
+	width: 97%
+}
+
+.modalButton{
+	display: flex;
+	justify-content: center;
+}
+.modalWrap button{
+	width: 30%;
+	transition:all .6s;
+}
+
+.modalWrap button:hover{
+	background:#F2F2F2; 
+}
+
+
+
+
+.modalOverlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: #0009;
+}
+
+
+
+@media screen and (max-width:1200px){
+
+.phoneNumbers ul {
+    width: 120%;
+}
+.phoneNumbers li {
+    font-size: 1.7vmin;
+}
+
+.socialIcons img {
+    width: 3vw;
+    height: 3vw;
+}
+}
+
+
+@media screen and (max-width:992px){
+
+.modalWindow .modalWrap {
+    width: 80%;
+    top: 50%;
+    left: 50%;
+}
+
+.modalWrap textarea {
+    width: 90%;
+}
+
+.phoneNumbers ul {
+    width: 98%;
+}
+
+.socialIcons img {
+    width: 4.5vw;
+    height: 4vw;
+}
+
+.socialIcons li:nth-child(2) {
+    margin-left: -0.5vw;
+}
+
+
+	h2 {
+    font-size: 5.5vmin;
+}
+
+.titleSite{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	font-size: 6vmin;
+}
+
+.titleSite button {
+    width: 40%;
+    font-size: 3vmin;
+}
+
+.titleSite p {
+    width: 70%;
+    font-size: 2.3vmin;
+}
+
+.anchorDown {
+    width: 8vw;
+    height: 8vw;
+	border: 5px solid rgba(255, 255, 255, .7);
+}
+
+.arrow {
+border-right: 5px solid rgba(255, 255, 255, .7);
+border-bottom: 5px solid rgba(255, 255, 255, .7);
+   
+}
+.mainContent {
+	min-height: 40vh;
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+}
+
+.mainContent p {
+	font-size: 3vmin;
+	margin-bottom: 2vh;
+}
+.mainContent li{
+	font-size: 3vmin;
+ }
+
+	.mainImage1{
+		display: none;
+	}
+.mainImage2 , .mainImage3{
+	height: 25vh;
+	min-height: 20vh;
+}
+
+
+.priceListContent p {
+	font-size: 3vmin;
+}
+
+.priceListContent li {
+	font-size: 3vmin;
+}
+
+h4{
+	font-size: 4vmin;
+}
+
+.headlines {
+	margin-bottom: 2vw;
+}
+
+table {
+	width: 86vw;
+	margin-bottom: 5vh;
+}
+
+caption {
+	font-size: 3vmin;
+}
+
+tr{
+	font-size: 2.5vmin;
+}
+
+.additionalInformation p {
+	font-size: 3vmin;
+}
+
+section#historyPhoto {
+	height: 25vh;
+}
+
+.historText p {
+	font-size: 3vmin;
+}
+
+.contactInfo h4 {
+	font-size: 4vmin;
+}
+
+.contactInfo li:nth-child(1) {
+	font-weight: 900;
+	font-size: 3vmin;
+}
+
+.contactInfo li {
+	font-size: 2.7vmin;
+}
+
+.contactUs h3 {
+	font-size: 4vmin;
+}
+
+.contactUs {
+	padding-left: 7vw;
+}
+.contactUs p {
+	font-size: 3vmin;
+}
+
+input#subject {
+	width: 90%;
+}
+textarea {
+	width: 90%;
+}
+button {
+	width: 25%;
+	height: 5vh;
+	font-size: 3vmin;
+}
+}
+
+
+@media screen and (max-width:760px){
+
+
+
+#slider.desctop{
+	display: none;
+}
+#slider.mobile{
+	display: block;
+}
+.siteMenu a {
+    font-size: 4vmin;
+}
+
+section#menu , .siteMenu li , .socialIcons li {
+    /*height: 15vh;*/
+}
+
+.phoneNumbers ul {
+    width: 98%;
+    font-size: 3.5vmin;
+	padding-top: 1%;
+}
+
+.titleSite {
+    height: 80%;
+}
+.anchorDownBlock {
+    height: 20%;
+}
+
+
+.socialIcons img {
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.phoneNumbers ul {
+/*    padding-top: 9%;*/
+}
+
+.phoneNumbers li {
+    font-size: 2.7vmin;
+}
+
+section#menu {
+    top: 0;
+}
+
+header {
+    height: 100vh;
+}
+
+#sliderBigImages img, .carousel-item {
+    height: 120vh;
+}
+
+header	h1 {
+    font-size: 8.5vmin;
+}
+
+.titleSite p {
+    width: 85%;
+    font-size: 3.3vmin;
+}
+
+.titleSite button {
+    width: 35%;
+    font-size: 4vmin;
+    height: 11vh;
+}
+
+.anchorDown {
+	width: 7vw;
+	height: 7vw;
+	border: 3px solid rgba(255, 255, 255, .7);
+}
+
+.anchorDown {
+    width: 6vw;
+    height: 6vw;
+ }
+
+.arrow {
+	border-right: 3px solid rgba(255, 255, 255, .7);
+	border-bottom: 3px solid rgba(255, 255, 255, .7);
+}
+
+.mainContent p {
+	font-size: 3.5vmin;
+	margin-bottom: 5vh;
+}
+
+.mainContent li {
+	font-size: 3.5vmin;
+}
+
+.mainImage2, .mainImage3 {
+	height: 45vh;
+	min-height: 20vh;
+}
+
+.priceListContent p {
+	font-size: 3.5vmin;
+}
+
+h4 {
+	font-size: 5vmin;
+}
+
+.priceListContent li {
+	font-size: 3.5vmin;
+}
+
+table {
+	width: 86vw;
+	margin-bottom: 10vh;
+}
+
+caption {
+	font-size: 3.5vmin;
+}
+
+tr {
+	font-size: 3vmin;
+}
+
+.additionalInformation p {
+	font-size: 3.5vmin;
+}
+
+section#historyPhoto {
+	height: 45vh;
+}
+
+.historText p {
+	font-size: 3.5vmin;
+}
+
+.contactInfo h4 {
+	font-size: 5vmin;
+}
+
+.contactInfo li:nth-child(1) {
+	font-size: 3.5vmin;
+}
+
+.contactInfo li {
+	font-size: 3.2vmin;
+}
+
+.contactUs {
+	padding-left: 7vw;
+	padding-top: 0;
+}
+
+.contactUs h3 {
+	font-size: 5vmin;
+	margin-bottom: 4vw;
+}
+
+.contactUs p {
+	font-size: 4vmin;
+}
+
+.modalTitle {
+    font-size: 5vmin;
+    text-align: center;
+    margin-bottom: 0vh;
+}
+
+form p{
+	margin-bottom: 0;
+}
+
+input#subject {
+	width: 93%;
+}
+
+
+button {
+	width: 25%;
+	height: 11vh;
+	font-size: 4vmin;
+}
+
+input {
+    width: 93%;
+    height: 8vh;
+    margin-bottom: 0vh;
+}
+
+textarea {
+    width: 93%;
+    height: 25vh;
+}
+
+}
+
+
+
+
+@media screen and (max-width:520px){
+
+header {
+    height: 100vh;
+}
+
+#sliderBigImages img, .carousel-item {
+    height: 100vh;
+}
+
+section#menu {
+    top: 0;
+}
+
+.phoneNumbers li {
+    padding-left: 0;
+    width: 100%;
+    font-size: 2vmin;
+}
+
+.socialIcons img {
+    width: 4.5vw;
+    height: 5vw;
+}
+
+
+
+section#menu , .siteMenu li , .socialIcons li {
+    /*height: 10vh;*/
+}
+
+.siteMenu a {
+    font-size: 2.6vmin;
+}
+
+.phoneNumbers ul {
+    width: 98%;
+    font-size: 2.4vmin;
+/*    padding-top: 9%;*/
+    align-content: flex-start;
+}
+
+header	h1 {
+    font-size: 6vmin;
+}
+
+
+ .phoneNumbers ul{
+    padding: 0;
+/*    margin-top: 20px;*/
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titleSite p {
+    width: 85%;
+    font-size: 3.2vmin;
+}
+
+.titleSite button {
+    width: 35%;
+    font-size: 3.3vmin;
+    height: 6vh;
+}
+
+.anchorDown {
+	width: 10vw;
+	height: 10vw;
+}
+
+.mainContent p {
+	font-size: 3.2vmin;
+	margin-bottom: 3vh;
+}
+
+h2 {
+	font-size: 5.3vmin;
+}
+
+.mainContent li {
+	font-size: 3.2vmin;
+}
+
+
+.mainImage2, .mainImage3 {
+	height: 20vh;
+	min-height: 20vh;
+}
+
+.priceListContent p {
+	font-size: 3.3vmin;
+}
+
+h4 {
+	font-size: 4vmin;
+}
+
+.priceListContent li {
+	font-size: 3.3vmin;
+}
+
+table {
+	width: 86vw;
+	margin-bottom: 5vh;
+}
+
+caption {
+	font-size: 3.1vmin;
+}
+
+
+.additionalInformation p {
+	font-size: 3.3vmin;
+}
+
+section#historyPhoto {
+	height: 20vh;
+}
+
+.historText p {
+	font-size: 3.3vmin;
+}
+
+.contactInfo {
+	padding: 7vw;
+	padding-left: 10vw;
+	padding-right: 0;
+}
+
+.contactInfo h4 {
+	font-size: 4.5vmin;
+}
+
+.contactUs {
+	padding: 7vw;
+	padding-top: 0;
+	padding-left: 10vw;
+	padding-right: 0;
+}
+
+.contactUs h3 {
+	font-size: 4.5vmin;
+}
+.contactUs p {
+	font-size: 3.7vmin;
+}
+
+
+.modalTitle {
+    font-size: 4.5vmin;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+input#subject {
+	width: 90%;
+}
+
+
+.modalWindow .modalWrap {
+    width: 90%;
+    top: 50%;
+    left: 50%;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+.modalWrap textarea {
+	width: 100%;
+	height: 20vh;
+}
+
+.modalWrap button {
+	width: 40%;
+	height: 7vh;
+	font-size: 3.7vmin;
+}
+
+#footerForm input{
+    width: 90%;
+}
+
+#footerForm textarea {
+    width: 90%;
+    height: 25vh;
+}
+
+ #footerForm button {
+    width: 30%;
+    height: 6vh;
+    font-size: 4vmin;
+}
+
+
+.socialIcons img {
+    width: 6.5vw;
+    height: 7vw;
+}
+
+.phoneNumbers ul {
+    padding: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoneNumbers li {
+    padding-left: 0;
+    width: 50%;
+    font-size: 3.5vmin;
+    text-align: center;
+}
+
+.socialIcons ul {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.phoneNumbers ul {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.siteMenu a {
+    font-size: 3vmin;
+}
+
+header	h1 {
+    font-size: 6.3vmin;
+    margin-top: 20vh;
+}
+
+.titleSite p {
+    width: 90%;
+    font-size: 3.7vmin;
+}
+
+
+.titleSite button {
+    width: 75%;
+    font-size: 5vmin;
+    height: 7vh;
+}
+
+.titleSite {
+    height: 90%;
+}
+
+.anchorDownBlock {
+    height: 10%;
+}
+
+}
+
+
+
+
+
