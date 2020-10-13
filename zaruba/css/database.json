@@ -1,6 +1,6 @@
 
-let allGoods = {
-  rollerBlinds :  [
+{
+  "rollerBlinds" :  [
      {
       "name": "Марсесль АКЦИЯ!!!",
       "openType" : {
@@ -29,7 +29,7 @@ let allGoods = {
     },
   ],
 
-  rollerBlindsDayNight : [
+  "rollerBlindsDayNight" : [
      {
       "name": "Марсесль АКЦИЯ!!!",
       "openType" : {
@@ -61,6 +61,6 @@ let allGoods = {
 
 
 
-let xJson = JSON.stringify(allGoods) 
+
 
 
